@@ -9,6 +9,10 @@
                 char[] s = ['h', 'e', 'l', 'l', 'o'];
                 StringReverse(ref s);
                 Console.WriteLine(s);
+
+                s = ['H', 'a', 'n', 'n', 'a', 'h'];
+                StringReverse(ref s);
+                Console.WriteLine(s);
             }
             else
             {
